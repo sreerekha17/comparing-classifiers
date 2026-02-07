@@ -1,5 +1,7 @@
 # Comparing Classifiers (Using Bank Marketing Analysis: )
 
+### -> [Link to Jupyter Notebook](./comparing_classifiers_problem.ipynb)
+
 ## Project Overview
 This project focuses on analyzing a dataset from a Portuguese banking institution to predict whether a client will subscribe to a term deposit. Using the **CRISP-DM** (Cross-Industry Standard Process for Data Mining) methodology, I compared four different classification models: **K-Nearest Neighbors, Logistic Regression, Decision Trees, and Support Vector Machines.**
 
@@ -70,7 +72,7 @@ Each model was evaluated against a **Baseline** (predicting the majority class "
 
 ---
 
-## 💡 5. Final Observations
+## 5. Final Observations
 1.  **Efficiency:** **Logistic Regression** is the most practical model. It provides top-tier accuracy while being nearly 30 times faster than the SVM.
 2.  **Overfitting:** The **Decision Tree** model suffered from significant overfitting, reaching 100% accuracy on training data but dropping on the test set.
 3.  **Cost of Complexity:** While **SVM** is robust, the high computational cost (CPU time) does not yield a significant accuracy benefit over the much simpler Logistic Regression.
@@ -79,5 +81,3 @@ Each model was evaluated against a **Baseline** (predicting the majority class "
 
 ## 🏁 6. Conclusion
 The analysis demonstrates that a targeted, data-driven approach can significantly enhance the bank's marketing efficiency. By utilizing the **Logistic Regression** model, the bank can identify high-probability leads quickly and accurately. 
-
-**Recommendation:** The bank should prioritize marketing efforts toward **students, retired individuals, and university graduates**, as these demographics show the highest natural propensity for term deposit subscriptions. This strategy allows for a "smarter, not harder" approach to customer outreach.
